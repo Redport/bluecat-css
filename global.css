@@ -603,7 +603,7 @@ background: none;
 }
 
 ul.tabs {
- height:18px;
+ height:19px;
  float:right;
  border-bottom: 1px none;
  margin: 0;
@@ -611,11 +611,11 @@ ul.tabs {
 
 ul.tabs li {
  padding: 2px;
- margin-right:6px;
+ margin-right:3px;
 }
 
 ul.tabs li a{
-border-bottom: 1px none #BBBBBB;
+border-bottom: 1px solid #BBBBBB;
 border-left: 1px solid #BBBBBB;
 border-right: 1px solid #BBBBBB;
 border-top: 1px solid #BBBBBB;
@@ -631,13 +631,13 @@ height: auto;
 margin-right: 0px; /*0.5em;*/
 /*padding: 0px 1em;*/
 padding-top:5px;
-padding-bottom:5px;
+padding-bottom:4px;
 text-decoration: none;
 }
 
 ul.tabs li a:hover{
-background-color:#FF00FF;
-color: #000000;
+background-color:#FFFFFF;
+color: #222222;
 }
 
 ul.tabs li a.active{
@@ -651,7 +651,7 @@ border-top: 1px solid #BBBBBB;
 -moz-border-radius-topright: 5px;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
-background-color:#FF00FF;
+background-color:#FFFFFF;
 color: #000000;
 margin-right: 0px; /*0.5em;*/
 /*padding: 0px 1em;*/
