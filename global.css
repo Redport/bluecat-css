@@ -1,0 +1,803 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* This file will hold the main styles for your website. */
+/* This file is a base starter file with the regions and wrappers */
+/* pre-filled for easy identification. This style sheet also assumes */
+/* that the full-width wrappers are enabled for each zone */
+body {
+font-family:"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+font-size:100%;
+	background-color: #FFFFFF;
+	color: #000000;/*#626247;*/
+}
+
+#page
+{
+	background-color: #000000;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 0.75em;
+	color: #000000;/*#626247;*/
+}
+
+#zone-user-wrapper 
+{
+	
+}
+		
+#zone-user
+{
+  background-color: #000000;
+    	height:30px;
+    	padding-top: 10px;
+}
+
+#zone-user a {
+	color: #F5EBD6;
+	text-decoration: none;
+}
+#region-user-first .content{
+/*  background-color: #A3A3CC;  */
+color:#FFFFFF;
+font-size:1.2em;
+
+}
+					#region-user-second {
+						/*  background-color: #C8C8E0;  */
+						}
+#region-user-second .block-title{
+
+visibility:collapse;
+}
+
+	#zone-branding-wrapper {
+		/*  background-color: #fff;  */
+		}
+#zone-branding h1.site-name, h2.site-name {
+	font-size:3em;
+		text-shadow: 2px 2px 2px #a0a0a0;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;	/*  background-color: #FFFF99;  */
+	margin-top: 9px; /*0.625em;*/
+	margin-bottom:10px;
+}
+
+#zone-branding .site-name a{
+	color: #000000;
+}
+#region-branding {
+	background-image: url('../images/dog banner01.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+#zone-branding .site-slogan {
+	font-size:1.8em;
+	font-style: italic;
+	color: #000000;	
+	text-shadow: 2px 2px 2px #a0a0a0;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom:3px;
+	margin-top:3px;	
+	margin-left:35px;		/*  background-color: #FFFF99;  */
+}
+
+				#region-branding {
+					/*  background-color: #FFFFCC;  */
+					}
+
+	#zone-menu-wrapper {
+		/*  background-color: #3399FF;   */		
+		}
+			#region-menu {
+				/*  background-color: #FF6699;  */
+				}
+
+
+	#zone-header-wrapper {
+		/*  background-color: #FFF;  */
+		}
+		#zone-header {
+			/*  background-color: #00CC66;  */
+			}
+			#region-header-first {
+				/*  background-color: #007A3D;  */
+				}
+			#region-header-second { 
+				/*  background-color: #00552B;  */
+				}
+
+	#zone-preface-wrapper {
+		/*  background-color: #3399FF;  */
+		}
+		#zone-preface {
+			/*  background-color: #CCCCFF;  */
+			}
+			#region-preface-first {
+				/*  background-color: #FF66FF;  */
+				}
+			#region-preface-second {
+				/*  background-color: #FF3399;  */
+				}
+
+			#region-preface-third {
+				/*  background-color: #FF5050;  */
+				}
+
+#zone-content {
+			/*  background-color: #FFF;  */
+}
+#zone-content title{
+font-size:1em;
+color:#998F4D;
+			/*  background-color: #FFF;  */
+}
+
+			
+			#breadcrumb {
+				
+		/*		background-color: #3333FF;*/
+				}
+			#messages {
+				/*  background-color: #66FF66;  */
+				}
+			#region-content {
+				/*  background-color: #009999;  */
+				}
+#region-content .title {
+	margin-top:0px;
+	margin-bottom: 5px;
+	font-size:2zem;
+	color:#000000;
+}				
+/* #region-content .field-name-field-main-page-photo img{
+	width: 960px;
+} */
+			#region-sidebar-first {
+				/*  background-color: #CC00FF;  */
+				}
+#region-sidebar-first .block,
+#region-sidebar-second .block{
+	background-color: #ffffee; /*#F5EBD6;*/
+	border:1px solid #8E802D;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* THe following lines are for CSS3 so may not work on all browsers */
+    -webkit-border-radius: 10px 10px;
+    border-radius: 10px 10px;   
+	-moz-border-radius: 10px; 
+background-image: linear-gradient(top, #FFFFEE 25%, #FFFFEE 2%, #E0DBC0 99%);
+background-image: -o-linear-gradient(top, #FFFFEE 25%, #FFFFEE 2%, #E0DBC0 99%);
+background-image: -moz-linear-gradient(top, #FFFFEE 25%, #FFFFEE 2%, #E0DBC0 99%);
+background-image: -webkit-linear-gradient(top, #FFFFEE 25%, #FFFFEE 2%, #E0DBC0 99%);
+background-image: -ms-linear-gradient(top, #FFFFEE 25%, #FFFFEE 2%, #E0DBC0 99%);
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.25, #FFFFEE),
+	color-stop(0.02, #FFFFEE),
+	color-stop(0.99, #E0DBC0)
+);
+}
+#region-sidebar-first .block-title ,
+#region-sidebar-second .block-title {
+	background-color: #8E802D;
+	/*border:2px solid #8E802D;*/
+	height:2.1em;
+	font-style: normal;
+	color: #F2F3E4;	
+	text-indent: 5px;
+	padding: 3px;    
+	/* THe following lines are for CSS3 so may not work on all browsers */
+	-webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;   
+	-moz-border-radius: 10px 10px 0px 0px; 
+background-image: linear-gradient(top, #8E7F2D 0%, #8E7F2D 75%, #FFFFEE 100%);
+background-image: -o-linear-gradient(top, #8E7F2D 0%, #8E7F2D 75%, #FFFFEE 100%);
+background-image: -moz-linear-gradient(top, #8E7F2D 0%, #8E7F2D 75%, #FFFFEE 100%);
+background-image: -webkit-linear-gradient(top, #8E7F2D 0%, #8E7F2D 75%, #FFFFEE 100%);
+background-image: -ms-linear-gradient(top, #8E7F2D 0%, #8E7F2D 75%, #FFFFEE 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #8E7F2D),
+	color-stop(0.75, #8E7F2D),
+	color-stop(1, #FFFFEE)
+);
+	/*border: 1px solid #000000;*/
+	font-size: 1.3em;
+}	
+#region-sidebar-first .menu,
+#region-sidebar-second .menu {
+	font-style: normal;
+	color: #000000;	/* THe following lines are for CSS3 so may not work on all browsers */
+	text-indent: 0px;
+	padding: 0px;    /*-webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;   
+	-moz-border-radius: 10px 10px 10px 10px; */
+}	
+#region-sidebar-first li.leaf, li.collapsed,li.expanded,
+#region-sidebar-second li.leaf{
+list-style-image:none;
+list-style-type:none;
+text-decoration:none;
+
+	font-style: normal;
+	color: #000000;	/* THe following lines are for CSS3 so may not work on all browsers */
+	padding: 3px;    /*-webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;   
+	-moz-border-radius: 10px 10px 10px 10px; */
+}	
+#region-sidebar-first ul.menu,
+#region-sidebar-second ul.menu{
+padding: 0px;
+}	
+#region-sidebar-first li.leaf,
+#region-sidebar-second li.leaf{
+border-top:0px;
+border-bottom:1px;
+border-left:1px;
+border-right: 1px;
+border-color:#79752D;
+border-style:none;
+margin-left:20px;
+}	
+#region-sidebar-first li a ,
+#region-sidebar-second li a {
+text-decoration:none;
+color:#79752D;
+}	
+
+#region-sidebar-first ul li.collapsed,
+#region-sidebar-second ul li.collapsed {
+    list-style-image: url("../images/menu-collapsed.png");
+    list-style-type: disc;
+    margin-left:20px;
+}
+#region-sidebar-first ul li.expanded,
+#region-sidebar-second ul li.expanded {
+    list-style-image: url("../images/menu-expanded.png");
+    list-style-type: circle;
+        margin-left:20px;
+}
+			#region-sidebar-second {
+				/*  background-color: #7A0099;  */
+				}
+
+		#zone-postscript-wrapper {
+			/*  background-color: #3399FF;  */
+			}
+				#zone-postscript {
+					/*  background-color: #000;  */
+					}
+						#region-postscript-first {
+						/*  background-color: #0066CC;  */
+						}
+						#region-postscript-second {
+						/*  background-color: #0033CC;  */  
+						}
+
+						#region-postscript-third {
+						/*  background-color: #0000CC;  */  
+						}
+						#region-postscript-fourth {
+						/*  background-color: #336699;  */ 
+						}
+
+		#zone-footer-wrapper {
+			/*  background-color: #FFF;  */  
+			}
+				#zone-footer {
+					background-color: #000000;
+					}
+						#region-footer-first {
+							/*  background-color: #00CC00; */ 
+							}
+						#region-footer-second {
+							  background-color: #000000; 
+							  color: #626247;
+							}
+#region-footer-second a {
+	text-decoration: none; 
+	color: #626247;
+}
+
+
+
+.breadcrumb {
+	   padding-bottom: 0.5em;
+	   float:right;
+}
+.breadcrumb a{
+font-size:0.85em;
+color:#79752D;
+text-decoration:none;
+
+}
+
+
+
+/* Generated via www.cssmenubuilder.com */
+
+#main-menu{
+	margin:0 auto;
+	padding:0;
+	padding-top:0px;
+	height:30px;
+	width:100%;
+	display:block;
+	background-color: #5B5B5B;
+}
+#main-menu li a{
+	float:right;
+	padding-right:10px;
+	padding-left:15px;
+	display:block;
+	color:rgb(255,255,255);
+	text-decoration:none;
+	font:1em Verdana, Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	background-color: #5B5B5B;
+	height:22px;
+	padding-top: 8px;
+}
+
+#main-menu li a:hover{
+	color:#FFFFFF;
+	background-color: #252525;
+}
+
+#main-menu li a.active, #main-menu li a.active:hover{
+	background-color: #5B5B5B;
+	color:#A4AA55;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.user_name {
+color: #FFFFFF;
+}
+
+
+.webform-component-email {
+	
+}
+.webform-component-textfield  {
+	
+}
+
+.fieldset-legend a:link {
+	color: #79752D;
+ text-decoration: none;
+}
+#webform-component-application-form-title ,
+#webform-component-application-form-your-details--application-form-title{
+	float:left;
+	width:150px;
+}
+#webform-component-application-form-name ,
+#webform-component-application-form-your-details--application-form-name{
+	float:right;
+	width:390px;
+}
+#webform-component-application-form-your-details--application-form-telephone-day label,
+#webform-component-application-form-your-details--application-form-telephone-evening label,
+#webform-component-application-form-your-details--application-form-mobile-number label,
+#webform-component-application-form-your-details--application-form-email-address label{
+	float:left;
+	width:150px;	
+}
+#webform-component-test2--application-form-age,
+#webform-component-test2--application-form-age2,
+#webform-component-test2--application-form-age3
+{
+	float:left;
+	width:70px;
+	margin-bottom:2px;
+	margin-top:2px;	
+}
+#webform-component-test2--application-form-hours-worked,
+#webform-component-test2--application-form-hours-worked2,
+#webform-component-test2--application-form-hours-worked3{
+	float:left;
+	width:100px;
+	margin-bottom:2px;
+	margin-top:2px;	
+}
+#webform-component-test2--application-form-occupation,
+#webform-component-test2--application-form-occupation2,
+#webform-component-test2--application-form-occupation3{
+	float:left;
+	width:330px;
+	margin-bottom:2px;
+	margin-top:2px;
+}
+#webform-component-application-form-your-details--application-form-address
+{
+	clear:both;
+}
+
+#node-webform-32 {
+	width:570px;
+}
+
+#webform-component-application-form-your-preferences {
+	/*background-color: #D8d2b2;*/
+}
+
+.webform-component-textarea textarea,
+.webform-component-email input,
+.webform-component-number input,
+.webform-component-textfield input { 
+/*  background-color:#dfdfdf;
+  background-image:url(../images/form-inactive.png); 
+  background-repeat:repeat-x; color:#999999;*/ 
+  -moz-border-radius:5px; 
+  -webkit-border-radius:5px; 
+  border-radius:5px;
+}
+
+/* 
+ * This is the gallery of dogs
+ */
+.view-dog-gallery-view .views-field-field-adoption-status,
+.view-dog-gallery-view .views-field-field-status-1 {
+	/*background-image: url('../images/adopted.png');
+	background-repeat: no-repeat;
+	background-size: 134px,34px;
+	display:block;
+	font-weight: bold;*/
+	float:left;
+		font-size: 10%;
+		margin: 0px;
+	position: relative;
+	width:0px;
+	top:-45px;
+	right:-2px;
+color: #FF0000;
+}
+.view-dog-gallery-view .views-field-field-status-0 {
+display:none;visibility: hidden;
+}
+
+.view-dog-gallery-view .view-dog img,
+.view-dog-gallery-view .view-dog2 img {
+	border-width: 3px;
+	border-color: #626247;
+	border-style: solid;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+.view-dog-gallery-view .views-field-title {
+	float:left;
+}
+.view-dog-gallery-view .dog-title a {
+	float:left;
+	text-decoration: none;
+	margin: 0px;
+	font-size: 1.5em;
+	color:#626247;
+}
+
+.view-dog-gallery-view .dog-title a:hover {
+	color:#000000;
+}
+
+.view-dog-gallery-view .views-field-field-sex img {
+	padding-left:20px;
+	padding-top:5px;
+	width: 80px;
+	height: 18px;
+}
+
+/* Dogs for Adoption page
+ * This is the home page view
+ */
+
+.view-dogs-for-adoption .views-field-field-dog-details-short{
+	display:block;
+	/*padding-left:20px;
+	margin-left:20px;*/
+}
+
+.view-dogs-for-adoption .views-field-field-photo{
+	float:left;
+	width:inherit;
+	padding-right:20px;
+}
+.view-dogs-for-adoption .views-field-title{
+	display:block;
+	/*padding-left:20px;
+		margin-left:20px;*/
+	font-size:1.3em;
+	color:#626247;
+	font-weight: bold;
+}
+
+.view-dogs-for-adoption .views-field-field-sex  {
+	display:block;
+	margin-top:10px;
+}
+
+.view-dogs-for-adoption .view-dog2 img {
+	border-width: 3px;
+	border-color: #626247;
+	border-style: solid;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+	
+}
+
+.view-dogs-for-adoption .views-field-field-sex img {
+	width: 80px;
+	height: 18px;
+}
+
+.view-dogs-for-adoption .views-field-title a {
+	text-decoration: none;
+	color:#626247; /*#998F4D;*/
+}
+
+.view-dogs-for-adoption .views-field-title a:hover {
+	text-decoration: none;
+	color:#000000;
+}
+
+
+
+.view-dogs-for-adoption tr {
+	border-bottom-style: groove;
+	border-bottom-width: 1px;
+}
+/* --------------------------------------------- */
+.content .field-name-field-sex{
+	float:right;
+}
+.content .field-name-field-dog-details-long {
+	display:block;
+	float:left;
+}
+.content .field-name-field-application-form {
+	display:block;
+	float:right;
+	margin-bottom:5px;
+}
+
+.field-name-field-dog-details-long{
+	padding-top: 15px;
+}
+
+tr:hover td,
+tr.even:hover td.active,
+tr.odd:hover td.active {
+background: none;
+}
+
+.search-form {
+	margin-left: 10px;
+}
+
+#user-login-form {
+	margin-left: 10px;
+}
+
+ul.tabs li a{
+border-bottom: 1px none #BBBBBB;
+border-left: 1px solid #BBBBBB;
+border-right: 1px solid #BBBBBB;
+border-top: 1px solid #BBBBBB;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background-color:#ffffff;
+color: #000000;
+height: auto;
+margin-right: 0px; /*0.5em;*/
+/*padding: 0px 1em;*/
+padding-top:5px;
+padding-bottom:5px;
+text-decoration: none;
+/*float:right;*/
+
+}
+
+ul.tabs li a:hover{
+background-color:#dddddd;
+color: #000000;
+}
+
+ul.tabs {
+ height:22px;
+ float:right;
+}
+ul.tabs li {
+ padding: 2px;
+ margin-right:0px;
+ /*float:right;*/
+}
+ul.tabs li a.active{
+border-bottom: 1px none #BBBBBB;
+border-left: 1px solid #BBBBBB;
+border-right: 1px solid #BBBBBB;
+border-top: 1px solid #BBBBBB;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background-color:#ffffff;
+color: #000000;
+margin-right: 0px; /*0.5em;*/
+/*padding: 0px 1em;*/
+padding-top:5px;
+padding-bottom:5px;
+text-decoration: none;
+/*float:right;*/
+}
+
+h1, h2, h3, h4, h5, h6 { 
+font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+letter-spacing: -0.05em;
+}
+
+
+/*
+ *  Main Menu (Superfish)
+ */
+
+#superfish-1 block-title {
+	visibility:hidden;
+}
+
+#block-superfish-2 .block-title,
+#block-superfish-3 .block-title,
+#block-superfish-4 .block-title,
+#block-superfish-5 .block-title {
+	/*visibility:hidden;*/
+	/*display:inline;*/
+	display:inline-block;
+	background-color: #000000;
+	color:#FFFFFF;
+	vertical-align:top;
+	width:150px;
+	text-decoration:none;
+	font:1em Verdana, Arial, Helvetica, sans-serif;	
+	text-align:right;
+	height:25px;
+	margin-top:6px;
+	margin-left:6px;
+}
+#block-superfish-2 .block-inner{
+	/*height: 10px;*/
+}
+#block-superfish-2,
+#block-superfish-3,
+#block-superfish-4,
+#block-superfish-5{
+	/*display:inline-block;*/
+	width:100%;
+	height:25px;
+	background-color: #000000;
+	/*margin-top:-6px;*/
+}
+
+#block-superfish-2 .content,
+#block-superfish-3 .content,
+#block-superfish-4 .content,
+#block-superfish-5 .content
+{
+	display:inline-block;
+	height:25px;
+	/*float:right;*/
+}
+#block-superfish-1{
+	float:right;
+	margin:0 auto;
+	padding:0;
+	padding-top:0px;
+	height:20px;
+	width:100%;
+	display:block;
+	background-color: #000000;
+}
+
+
+#block-superfish-1 .sf-menu.sf-style-default {
+float:right;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+#block-superfish-2 .sf-menu.sf-style-default,
+#block-superfish-3 .sf-menu.sf-style-default,
+#block-superfish-4 .sf-menu.sf-style-default,
+#block-superfish-5 .sf-menu.sf-style-default {
+float:left;
+    margin-bottom: 0px; /*1em;*/
+    height:25px;
+    padding: 0;
+}
+
+#superfish-1  li a,
+#superfish-2  li a,
+#superfish-3  li a,
+#superfish-4  li a,
+#superfish-5  li a
+{
+	float:right;
+	padding-right:15px;
+	padding-left:15px;
+	display:block;
+	color:rgb(255,255,255);
+	text-decoration:none;
+	font:1em Verdana, Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	background-color: #000000;
+	height:11px;
+	padding-top: 4px;
+	border-left: 1px solid #000000; /*#5B5B5B; /*#D5CFA8;*/
+	border-top: 1px solid #000000; /*#D5CFA8;*/
+}
+
+#superfish-2  ul,
+#superfish-3  ul,
+#superfish-4  ul,
+#superfish-5  ul{
+	height:25px;
+}
+
+#superfish-1  li a:hover,
+#superfish-2  li a:hover,
+#superfish-3  li a:hover,
+#superfish-4  li a:hover,
+#superfish-5  li a:hover{
+	color:#FFFFFF;
+	background-color: #252525;
+	/*height:20px;*/
+}
+
+#superfish-1  li a.active, #superfish-1 li a.active:hover,
+#superfish-2  li a.active, #superfish-2 li a.active:hover,
+#superfish-3  li a.active, #superfish-3 li a.active:hover,
+#superfish-4  li a.active, #superfish-4 li a.active:hover,
+#superfish-5  li a.active, #superfish-5 li a.active:hover{
+	background-color: #5B5B5B;
+	color:#A4AA55;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*height:20px;*/
+}
+
+#block-superfish-2 .sf-menu.sf-style-default li, 
+#block-superfish-2 .sf-menu.sf-style-default.sf-navbar,
+#block-superfish-3 .sf-menu.sf-style-default li, 
+#block-superfish-3 .sf-menu.sf-style-default.sf-navbar,
+#block-superfish-4 .sf-menu.sf-style-default li, 
+#block-superfish-4 .sf-menu.sf-style-default.sf-navbar,
+#block-superfish-5 .sf-menu.sf-style-default li, 
+#block-superfish-5 .sf-menu.sf-style-default.sf-navbar
+ { 
+background: #BDD2FF;
+height: 25px;
+}
+
+
+/*
+.form-item-field-team-und {
+	display:none;
+visibility: hidden;
+}
+*/
+#region-footer-first  .block-inner{
+height:20px;
+ margin:0px;
+}
