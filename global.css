@@ -291,10 +291,11 @@ color:#79752D;
 						}
 
 		#zone-footer-wrapper {
-			/*  background-color: #FFF;  */  
 			}
 				#zone-footer {
 					background-color: #000000;
+					width: 100%;
+					margin-left: 0%;
 					}
 						#region-footer-first {
 							/*  background-color: #00CC00; */ 
