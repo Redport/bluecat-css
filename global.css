@@ -688,7 +688,7 @@ letter-spacing: -0.05em;
 	text-decoration:none;
 	font:1em Verdana, Arial, Helvetica, sans-serif;	
 	text-align:right;
-	height:25px;
+	height:auto;
 	margin-top:6px;
 	margin-left:6px;
 }
