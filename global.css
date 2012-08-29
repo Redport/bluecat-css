@@ -594,6 +594,8 @@ background: none;
 .tabs {
 	background: url("../images/line.png");
  	background-repeat: repeat-x;
+ 	background-position: bottom;
+ 	background-attachment: scroll left;
 }
 
 
@@ -628,6 +630,7 @@ color: #000000;
 ul.tabs {
  height:19px;
  float:right;
+ border-bottom: 1px none;
 }
 ul.tabs li {
  padding: 2px;
