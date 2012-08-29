@@ -622,6 +622,7 @@ color: #000000;
 ul.tabs {
  height:19px;
  float:right;
+ background: url("../images/line.png");
 }
 ul.tabs li {
  padding: 2px;
