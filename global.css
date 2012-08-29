@@ -30,6 +30,8 @@ font-size:100%;
   background-color: #000000;
     	height:30px;
     	padding-top: 10px;
+    	width: 100%;
+    	margin-left: 0%;
 }
 
 #zone-user a {
