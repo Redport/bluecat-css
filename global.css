@@ -591,10 +591,6 @@ background: none;
 	margin-left: 10px;
 }
 
-.content {
-	margin-top: 10px;
-}
-
 .tabs {
 	background: url("../images/line.png");
  	background-repeat: repeat-x;
@@ -603,6 +599,7 @@ background: none;
  	background-color: transparent;
  	background-height: 1px;
  	border:medium none;
+ 	margin-bottom: 10px;
 }
 
 ul.tabs {
