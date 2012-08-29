@@ -595,9 +595,12 @@ background: none;
 	background: url("../images/line.png");
  	background-repeat: repeat-x;
  	background-position: bottom;
- 	background-attachment: scroll left bottom;
+ 	background-attachment: scroll left-bottom;
  	background-color: transparent;
  	background-height: 1px;
+ 	border:medium none;
+ 	margin: 0;
+ 	padding: 0 3px;
 }
 
 
