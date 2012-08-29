@@ -595,7 +595,9 @@ background: none;
 	background: url("../images/line.png");
  	background-repeat: repeat-x;
  	background-position: bottom;
- 	background-attachment: scroll left;
+ 	background-attachment: scroll left bottom;
+ 	background-color: transparent;
+ 	overflow: hidden;
 }
 
 
