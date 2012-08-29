@@ -10,6 +10,8 @@ font-family:"Helvetica Neue", "Helvetica", "Arial", sans-serif;
 font-size:100%;
 	background-color: #FFFFFF;
 	color: #000000;/*#626247;*/
+	height: 100%;
+	width: 100%;
 }
 
 #page
