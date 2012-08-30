@@ -163,14 +163,14 @@ color:#998F4D;
 				}
 #region-sidebar-first .block,
 #region-sidebar-second .block{
-	background-color: #ffffee; /*#F5EBD6;*/
-	border:1px solid #8E802D;
+	background-color: transparent; /*#F5EBD6;*/
+	border:1px none /*#8E802D;*/
 	padding-top: 0px;
-	padding-bottom: 2px;
+	padding-bottom: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	/* THe following lines are for CSS3 so may not work on all browsers */
-    -webkit-border-radius: 10px 10px;
+/*    -webkit-border-radius: 10px 10px;
     border-radius: 10px 10px;   
 	-moz-border-radius: 10px; 
 background-image: linear-gradient(top, #FFFFEE 25%, #FFFFEE 2%, #E0DBC0 99%);
@@ -186,7 +186,7 @@ background-image: -webkit-gradient(
 	color-stop(0.25, #FFFFEE),
 	color-stop(0.02, #FFFFEE),
 	color-stop(0.99, #E0DBC0)
-);
+);*/
 }
 #region-sidebar-first .block-title ,
 #region-sidebar-second .block-title {
