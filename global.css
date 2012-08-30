@@ -14,11 +14,6 @@ font-size:100%;
 	width: 100%;
 }
 
-img {
-	width: 100%;
-	height: 100%;
-}
-
 #page
 {
 	background-color: #FFFFFF;
@@ -319,10 +314,35 @@ color:#79752D;
 	color: #626247;
 }
 
+
+
+
 .field-name-field-page-title {
 	font-weight: bold;
 	font-size: 40pt;
 	margin-top: 10px;
+}
+
+.field-name-field-activity-areas {
+	margin-top: -10px;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.field-name-field-date-of-birth {
+	font-size: 18pt;
+	float: left;
+}
+
+.field-name-field-date-of-death {
+	font-size: 18pt;
+	overflow: hidden;
+	float: left;
+}
+
+.field-name-field-image img {
+	width: 100%;
+	height: 100%;
 }
 
 
