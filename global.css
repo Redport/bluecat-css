@@ -312,6 +312,11 @@ color:#79752D;
 	color: #626247;
 }
 
+.field-item{
+	font-weight: bold;
+	font-size: 40pt;
+	margin-top: 10px;
+}
 
 
 .breadcrumb {
@@ -605,7 +610,7 @@ background: none;
 }
 
 ul.tabs {
- height:20px;
+ height:21px;
  float:right;
  border-bottom: 1px none;
  margin: 0;
@@ -755,7 +760,7 @@ float:left;
 	padding-right:15px;
 	padding-left:15px;
 	display:block;
-	color:rgb(255,255,255);
+	color: E5E5E5;
 	text-decoration:none;
 	font:1em Verdana, Arial, Helvetica, sans-serif;
 	cursor:pointer;
@@ -788,8 +793,8 @@ float:left;
 #superfish-3  li a.active, #superfish-3 li a.active:hover,
 #superfish-4  li a.active, #superfish-4 li a.active:hover,
 #superfish-5  li a.active, #superfish-5 li a.active:hover{
-	background-color: #5B5B5B;
-	color:#A4AA55;
+	/*background-color: #5B5B5B;
+	color:#A4AA55;*/
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	/*height:20px;*/
 }
