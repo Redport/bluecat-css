@@ -330,14 +330,14 @@ color:#79752D;
 }
 
 .field-name-field-date-of-birth {
-	font-size: 18pt;
+	font-size: 16pt;
 	float: left;
 }
 
 .field-name-field-date-of-death {
-	font-size: 18pt;
+	font-size: 16pt;
 	overflow: hidden;
-	float: left;
+	display: inline-block;
 }
 
 .field-name-field-image img {
